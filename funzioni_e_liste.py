@@ -87,7 +87,6 @@ def contauguali(lista1, lista2):
     nuova_lista1 = []
     nuova_lista2 = []
     
-    # Iteriamo fino alla lunghezza minima tra le due liste
     for i in range(min(len(lista1), len(lista2))):
         if lista1[i] == lista2[i]:
             contatore += 1
@@ -96,9 +95,10 @@ def contauguali(lista1, lista2):
             nuova_lista2.append(lista2[i])
 
     return contatore, nuova_lista1, nuova_lista2
+#i7yf7yiofg789fg
 
 
-# Calcolo degli elementi uguali e nuove liste
+
 numero_elementi_uguali, nuova_lista1, nuova_lista2 = contauguali(lista1, lista2)
 
 # Stampiamo il numero di elementi uguali e le nuove liste
