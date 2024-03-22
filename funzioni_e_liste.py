@@ -95,7 +95,7 @@ def contauguali(lista1, lista2):
             nuova_lista2.append(lista2[i])
 
     return contatore, nuova_lista1, nuova_lista2
-#i7yf7yiofg789fg
+
 
 
 
